@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+body, html{
+
+    height : 100%;
+    background-color: #9E9E9E;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#content{
+   background-color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 50%;
+    height: auto;
+
+
+
+}
+
+#inputText{
+    margin-left: 10%;
+    width: 90%;
+    padding: 10px;
+    border: solid 5px #c9c9c9;
+    transition: border 0.3s;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#inputText:focus{
+    border: solid 5px #969696;
+}
+
+#buttons{
+    margin-left: 45%;
+    margin-top: 2%;
+
+}
+
+#random{
+
+    margin-left: 50%;
+
+    text-align: center;
+
+
+    color: black;
+
+
+}
+a:link{
+    text-decoration: none;
+
+}
+a:link:hover{
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+a:link:active{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+
+#submit, #reset {
+padding: 5px 25px 5px 25px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+#result{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    margin-right: 50px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
+
+}
+.page{
+
+    background-color: #424242;
+    box-shadow: 10px 10px 5px #424242;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.page h2{
+    padding: 3% 3% 3% 3%;
+    color:inherit;
+}
+.page p{
+    padding: 0% 3% 3% 3%;
+}
+.page h2 a{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+.page h2 a:hover{
+
+    opacity: 0.8;
+}
+
+.page h2 a:active{
+    opacity: 0.6;
+
+}
